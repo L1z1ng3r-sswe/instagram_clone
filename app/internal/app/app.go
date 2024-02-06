@@ -14,6 +14,7 @@ import (
 	"github.com/L1z1ng3r-sswe/instagram_clone/app/internal/repository"
 	"github.com/L1z1ng3r-sswe/instagram_clone/app/internal/service"
 	"github.com/L1z1ng3r-sswe/instagram_clone/app/pkg/logging"
+	"github.com/gin-gonic/gin"
 	"github.com/jmoiron/sqlx"
 	"github.com/joho/godotenv"
 )
@@ -72,10 +73,13 @@ func initDep(db *sqlx.DB, log *logging.Logger) *handler.Handler {
 	return h
 }
 
-func (a *App) Run(port string) error {
+func (a *App) Run(port string, handler *gin.Engine) error {
 	server := &http.Server{
-		Addr:    ":" + port,
-		Handler: a.Handler.SetUpRoutes(),
+		Addr:              ":" + port,
+		Handler:           handler,
+		MaxHeaderBytes:    20 << 20,
+		WriteTimeout:      10 * time.Second,
+		ReadHeaderTimeout: 10 * time.Second,
 	}
 
 	go func() {

@@ -6,6 +6,7 @@ import (
 	"log"
 	"os"
 	"runtime"
+	"strings"
 	"time"
 
 	"github.com/rs/zerolog"
@@ -16,7 +17,29 @@ type Logger struct {
 }
 
 func (logger *Logger) Ftl(msg string) {
-	logger.Logger.Fatal().Msg(msg)
+	logger.Logger.Fatal().
+		CallerSkipFrame(3).Msg(msg)
+}
+
+func (logger *Logger) Request(method, path string, status int, latency time.Duration) {
+	logger.Logger.Info().
+		Str("method", method).
+		Int("status", status).
+		Str("path", path).
+		Dur("latency", latency).
+		Msg("Request")
+}
+
+func (logger *Logger) Err(errKey string, errMsg string, fileInfo string) {
+	if fileInfo == "" {
+		logger.Logger.Error().Msgf("%s: %s", errKey, errMsg)
+	} else {
+		logger.Logger.Error().Str("cd", fileInfo).Msgf("%s: %s", errKey, errMsg)
+	}
+}
+
+func (logger *Logger) Inf(msg string) {
+	logger.Logger.Info().Msg(msg)
 }
 
 var defaultLogger = newLogger()
@@ -25,9 +48,26 @@ func newLogger() *zerolog.Logger {
 	output := zerolog.NewConsoleWriter(func(w *zerolog.ConsoleWriter) {
 		w.TimeFormat = time.Kitchen
 		w.Out = os.Stdout
+		w.FormatLevel = func(i interface{}) string {
+			level := strings.ToUpper(fmt.Sprintf("[%s]", i))
+			switch i {
+			case "debug":
+				return "\x1b[35m" + level + "\x1b[37m"
+			case "info":
+				return "\x1b[32m" + level + "\x1b[37m"
+			case "warn":
+				return "\x1b[33m" + level + "\x1b[37m"
+			case "error":
+				return "\x1b[31m" + level + "\x1b[37m"
+			case "fatal":
+				return "\x1b[31m" + level + "\x1b[37m"
+			default:
+				return "\x1b[0m" + level
+			}
+		}
 		w.FormatMessage = func(i interface{}) string {
 			message := fmt.Sprintf("--- %v ---", i)
-			return "\x1b[100m" + message + "\x1b[0m"
+			return "\x1b[32m" + message + "\x1b[0m"
 		}
 	})
 

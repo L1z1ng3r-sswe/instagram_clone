@@ -1,0 +1,432 @@
+[90m3:21PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.848859 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/index.html [36mstatus=[0m200
+[90m3:21PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.226274 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/swagger-ui.css [36mstatus=[0m200
+[90m3:21PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.563118 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/swagger-ui-bundle.js [36mstatus=[0m200
+[90m3:21PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.443975 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/swagger-ui-standalone-preset.js [36mstatus=[0m200
+[90m3:21PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.101287 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/doc.json [36mstatus=[0m500
+[90m3:21PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.070074 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/favicon-32x32.png [36mstatus=[0m200
+[90m3:22PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.122841 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/index.html [36mstatus=[0m200
+[90m3:22PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.05011 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/swagger-ui.css [36mstatus=[0m304
+[90m3:22PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.036826 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/swagger-ui-bundle.js [36mstatus=[0m304
+[90m3:22PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.051632 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/swagger-ui-standalone-preset.js [36mstatus=[0m304
+[90m3:22PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.026546 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/doc.json [36mstatus=[0m500
+[90m3:22PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.093752 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/favicon-32x32.png [36mstatus=[0m304
+[90m3:25PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m1.026654 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/index.html [36mstatus=[0m200
+[90m3:25PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.241026 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/swagger-ui.css [36mstatus=[0m200
+[90m3:25PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.510773 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/swagger-ui-standalone-preset.js [36mstatus=[0m200
+[90m3:25PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m1.044255 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/swagger-ui-bundle.js [36mstatus=[0m200
+[90m3:25PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.039396 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/doc.json [36mstatus=[0m500
+[90m3:25PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.05722 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/favicon-32x32.png [36mstatus=[0m200
+[90m3:25PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.114939 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/index.html [36mstatus=[0m200
+[90m3:25PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.028849 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/swagger-ui.css [36mstatus=[0m304
+[90m3:25PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.02994 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/swagger-ui-bundle.js [36mstatus=[0m304
+[90m3:25PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.026574 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/swagger-ui-standalone-preset.js [36mstatus=[0m304
+[90m3:25PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.016692 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/doc.json [36mstatus=[0m500
+[90m3:25PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.029541 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/favicon-32x32.png [36mstatus=[0m304
+[90m3:25PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.204977 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/index.html [36mstatus=[0m200
+[90m3:25PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.047043 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/swagger-ui.css [36mstatus=[0m304
+[90m3:25PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.017501 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/swagger-ui-standalone-preset.js [36mstatus=[0m304
+[90m3:25PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.031715 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/swagger-ui-bundle.js [36mstatus=[0m304
+[90m3:25PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.010349 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/doc.json [36mstatus=[0m500
+[90m3:25PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.054705 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/favicon-32x32.png [36mstatus=[0m304
+[90m3:25PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.088432 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/index.html [36mstatus=[0m200
+[90m3:25PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.014604 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/doc.json [36mstatus=[0m500
+[90m3:25PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.060549 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/index.html [36mstatus=[0m200
+[90m3:25PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.055027 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/swagger-ui-bundle.js [36mstatus=[0m304
+[90m3:25PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.06781 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/swagger-ui.css [36mstatus=[0m304
+[90m3:25PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.025089 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/swagger-ui-standalone-preset.js [36mstatus=[0m304
+[90m3:25PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.010536 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/doc.json [36mstatus=[0m500
+[90m3:25PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.025227 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/favicon-32x32.png [36mstatus=[0m304
+[90m3:25PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.083386 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/index.html [36mstatus=[0m200
+[90m3:25PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.033905 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/swagger-ui.css [36mstatus=[0m304
+[90m3:25PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.026512 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/swagger-ui-bundle.js [36mstatus=[0m304
+[90m3:25PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.034373 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/swagger-ui-standalone-preset.js [36mstatus=[0m304
+[90m3:25PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.012405 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/doc.json [36mstatus=[0m500
+[90m3:25PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.028659 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/favicon-32x32.png [36mstatus=[0m304
+[90m3:25PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.076448 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/index.html [36mstatus=[0m200
+[90m3:25PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.040754 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/swagger-ui.css [36mstatus=[0m304
+[90m3:25PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.032521 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/swagger-ui-bundle.js [36mstatus=[0m304
+[90m3:25PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.020269 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/swagger-ui-standalone-preset.js [36mstatus=[0m304
+[90m3:25PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.0121 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/doc.json [36mstatus=[0m500
+[90m3:25PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.039085 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/favicon-32x32.png [36mstatus=[0m304
+[90m3:32PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.613045 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/index.html [36mstatus=[0m200
+[90m3:32PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.216523 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/swagger-ui.css [36mstatus=[0m200
+[90m3:32PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.228922 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/swagger-ui-standalone-preset.js [36mstatus=[0m200
+[90m3:32PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.571479 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/swagger-ui-bundle.js [36mstatus=[0m200
+[90m3:32PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.041354 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/doc.json [36mstatus=[0m500
+[90m3:32PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.03035 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/favicon-32x32.png [36mstatus=[0m200
+[90m3:32PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.127373 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/index.html [36mstatus=[0m200
+[90m3:32PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.059991 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/swagger-ui.css [36mstatus=[0m304
+[90m3:32PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.024768 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/swagger-ui-bundle.js [36mstatus=[0m304
+[90m3:32PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.019257 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/swagger-ui-standalone-preset.js [36mstatus=[0m304
+[90m3:32PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.016739 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/doc.json [36mstatus=[0m500
+[90m3:32PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.051324 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/favicon-32x32.png [36mstatus=[0m304
+[90m3:32PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.414572 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/index.html [36mstatus=[0m200
+[90m3:32PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.037747 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/swagger-ui.css [36mstatus=[0m304
+[90m3:32PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.019542 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/swagger-ui-standalone-preset.js [36mstatus=[0m304
+[90m3:32PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.02441 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/swagger-ui-bundle.js [36mstatus=[0m304
+[90m3:32PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.014682 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/doc.json [36mstatus=[0m500
+[90m3:32PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.023689 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/favicon-32x32.png [36mstatus=[0m304
+[90m3:32PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.202687 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/index.html [36mstatus=[0m200
+[90m3:32PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.032205 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/swagger-ui.css [36mstatus=[0m304
+[90m3:32PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.03594 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/swagger-ui-bundle.js [36mstatus=[0m304
+[90m3:32PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.02122 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/swagger-ui-standalone-preset.js [36mstatus=[0m304
+[90m3:33PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.014913 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/doc.json [36mstatus=[0m500
+[90m3:33PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.038765 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/favicon-32x32.png [36mstatus=[0m304
+[90m3:33PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.106633 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/index.html [36mstatus=[0m200
+[90m3:33PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.038707 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/swagger-ui.css [36mstatus=[0m304
+[90m3:33PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.038191 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/swagger-ui-bundle.js [36mstatus=[0m304
+[90m3:33PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.026769 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/swagger-ui-standalone-preset.js [36mstatus=[0m304
+[90m3:33PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.016735 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/doc.json [36mstatus=[0m500
+[90m3:33PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.743127 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/index.html [36mstatus=[0m200
+[90m3:33PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.279736 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/swagger-ui.css [36mstatus=[0m200
+[90m3:33PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.210961 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/swagger-ui-standalone-preset.js [36mstatus=[0m200
+[90m3:33PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.680974 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/swagger-ui-bundle.js [36mstatus=[0m200
+[90m3:33PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.014072 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/doc.json [36mstatus=[0m500
+[90m3:33PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.037127 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/favicon-32x32.png [36mstatus=[0m200
+[90m3:39PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.097306 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/index.html [36mstatus=[0m200
+[90m3:39PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.031512 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/swagger-ui.css [36mstatus=[0m304
+[90m3:39PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.081368 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/swagger-ui-bundle.js [36mstatus=[0m304
+[90m3:39PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.030257 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/swagger-ui-standalone-preset.js [36mstatus=[0m304
+[90m3:39PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.009457 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/doc.json [36mstatus=[0m500
+[90m3:39PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.04322 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/favicon-32x32.png [36mstatus=[0m304
+[90m3:41PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.002314 [36mmethod=[0mGET [36mpath=[0m/swagger/index.html [36mstatus=[0m404
+[90m3:41PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.344332 [36mmethod=[0mGET [36mpath=[0m/swagger/index.html [36mstatus=[0m200
+[90m3:41PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.381593 [36mmethod=[0mGET [36mpath=[0m/swagger/swagger-ui.css [36mstatus=[0m200
+[90m3:41PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m1.063509 [36mmethod=[0mGET [36mpath=[0m/swagger/swagger-ui-bundle.js [36mstatus=[0m200
+[90m3:41PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.342116 [36mmethod=[0mGET [36mpath=[0m/swagger/swagger-ui-standalone-preset.js [36mstatus=[0m200
+[90m3:41PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.014372 [36mmethod=[0mGET [36mpath=[0m/swagger/doc.json [36mstatus=[0m500
+[90m3:41PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.096602 [36mmethod=[0mGET [36mpath=[0m/swagger/favicon-32x32.png [36mstatus=[0m200
+[90m3:41PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m1.082238 [36mmethod=[0mGET [36mpath=[0m/api/v1/post/ [36mstatus=[0m200
+[90m3:42PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.310961 [36mmethod=[0mGET [36mpath=[0m/swagger/index.html [36mstatus=[0m200
+[90m3:42PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.3327 [36mmethod=[0mGET [36mpath=[0m/swagger/swagger-ui.css [36mstatus=[0m200
+[90m3:42PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.638661 [36mmethod=[0mGET [36mpath=[0m/swagger/swagger-ui-standalone-preset.js [36mstatus=[0m200
+[90m3:42PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m1.891033 [36mmethod=[0mGET [36mpath=[0m/swagger/swagger-ui-bundle.js [36mstatus=[0m200
+[90m3:42PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.036092 [36mmethod=[0mGET [36mpath=[0m/swagger/doc.json [36mstatus=[0m500
+[90m3:42PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.080234 [36mmethod=[0mGET [36mpath=[0m/swagger/favicon-32x32.png [36mstatus=[0m200
+[90m3:42PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.240718 [36mmethod=[0mGET [36mpath=[0m/swagger/index.html [36mstatus=[0m200
+[90m3:42PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.036426 [36mmethod=[0mGET [36mpath=[0m/swagger/swagger-ui.css [36mstatus=[0m304
+[90m3:42PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.027984 [36mmethod=[0mGET [36mpath=[0m/swagger/swagger-ui-bundle.js [36mstatus=[0m304
+[90m3:42PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.030808 [36mmethod=[0mGET [36mpath=[0m/swagger/swagger-ui-standalone-preset.js [36mstatus=[0m304
+[90m3:42PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.025522 [36mmethod=[0mGET [36mpath=[0m/swagger/doc.json [36mstatus=[0m500
+[90m3:42PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.034873 [36mmethod=[0mGET [36mpath=[0m/swagger/favicon-32x32.png [36mstatus=[0m304
+[90m3:43PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.616047 [36mmethod=[0mGET [36mpath=[0m/swagger/index.html [36mstatus=[0m200
+[90m3:43PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.343465 [36mmethod=[0mGET [36mpath=[0m/swagger/swagger-ui.css [36mstatus=[0m200
+[90m3:43PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.40997 [36mmethod=[0mGET [36mpath=[0m/swagger/swagger-ui-standalone-preset.js [36mstatus=[0m200
+[90m3:43PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.99917 [36mmethod=[0mGET [36mpath=[0m/swagger/swagger-ui-bundle.js [36mstatus=[0m200
+[90m3:43PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.012336 [36mmethod=[0mGET [36mpath=[0m/swagger/doc.json [36mstatus=[0m500
+[90m3:43PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.034358 [36mmethod=[0mGET [36mpath=[0m/swagger/favicon-32x32.png [36mstatus=[0m200
+[90m3:43PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.240578 [36mmethod=[0mGET [36mpath=[0m/swagger/index.html [36mstatus=[0m200
+[90m3:43PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.035047 [36mmethod=[0mGET [36mpath=[0m/swagger/swagger-ui.css [36mstatus=[0m304
+[90m3:43PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.031708 [36mmethod=[0mGET [36mpath=[0m/swagger/swagger-ui-bundle.js [36mstatus=[0m304
+[90m3:43PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.020593 [36mmethod=[0mGET [36mpath=[0m/swagger/swagger-ui-standalone-preset.js [36mstatus=[0m304
+[90m3:43PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.014299 [36mmethod=[0mGET [36mpath=[0m/swagger/doc.json [36mstatus=[0m500
+[90m3:43PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.036531 [36mmethod=[0mGET [36mpath=[0m/swagger/favicon-32x32.png [36mstatus=[0m304
+[90m3:44PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.07071 [36mmethod=[0mGET [36mpath=[0m/swagger/doc.json [36mstatus=[0m500
+[90m3:46PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.034785 [36mmethod=[0mGET [36mpath=[0m/swagger/doc.json [36mstatus=[0m500
+[90m3:46PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.033029 [36mmethod=[0mGET [36mpath=[0m/swagger/doc.json [36mstatus=[0m500
+[90m3:46PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.087888 [36mmethod=[0mGET [36mpath=[0m/swagger/doc.json [36mstatus=[0m500
+[90m3:47PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.012472 [36mmethod=[0mGET [36mpath=[0m/swagger/doc.json [36mstatus=[0m500
+[90m3:47PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.042336 [36mmethod=[0mGET [36mpath=[0m/swagger/doc.json [36mstatus=[0m500
+[90m3:47PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.033136 [36mmethod=[0mGET [36mpath=[0m/swagger/doc.json [36mstatus=[0m500
+[90m3:47PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.28172 [36mmethod=[0mGET [36mpath=[0m/swagger/index.html [36mstatus=[0m200
+[90m3:47PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.344295 [36mmethod=[0mGET [36mpath=[0m/swagger/swagger-ui.css [36mstatus=[0m200
+[90m3:47PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.230549 [36mmethod=[0mGET [36mpath=[0m/swagger/swagger-ui-standalone-preset.js [36mstatus=[0m200
+[90m3:47PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.708506 [36mmethod=[0mGET [36mpath=[0m/swagger/swagger-ui-bundle.js [36mstatus=[0m200
+[90m3:47PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.032841 [36mmethod=[0mGET [36mpath=[0m/swagger/doc.json [36mstatus=[0m500
+[90m3:47PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.30722 [36mmethod=[0mGET [36mpath=[0m/swagger/index.html [36mstatus=[0m200
+[90m3:47PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.26852 [36mmethod=[0mGET [36mpath=[0m/swagger/swagger-ui.css [36mstatus=[0m200
+[90m3:47PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m1.092705 [36mmethod=[0mGET [36mpath=[0m/swagger/swagger-ui-bundle.js [36mstatus=[0m200
+[90m3:47PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.284026 [36mmethod=[0mGET [36mpath=[0m/swagger/swagger-ui-standalone-preset.js [36mstatus=[0m200
+[90m3:47PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.016177 [36mmethod=[0mGET [36mpath=[0m/swagger/doc.json [36mstatus=[0m500
+[90m3:47PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.046747 [36mmethod=[0mGET [36mpath=[0m/swagger/favicon-32x32.png [36mstatus=[0m200
+[90m3:47PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.280753 [36mmethod=[0mGET [36mpath=[0m/swagger/index.html [36mstatus=[0m200
+[90m3:47PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.050077 [36mmethod=[0mGET [36mpath=[0m/swagger/swagger-ui.css [36mstatus=[0m304
+[90m3:47PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.027853 [36mmethod=[0mGET [36mpath=[0m/swagger/swagger-ui-bundle.js [36mstatus=[0m304
+[90m3:47PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.019202 [36mmethod=[0mGET [36mpath=[0m/swagger/swagger-ui-standalone-preset.js [36mstatus=[0m304
+[90m3:47PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.02148 [36mmethod=[0mGET [36mpath=[0m/swagger/doc.json [36mstatus=[0m500
+[90m3:47PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.038128 [36mmethod=[0mGET [36mpath=[0m/swagger/favicon-32x32.png [36mstatus=[0m304
+[90m3:58PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.749602 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/index.html [36mstatus=[0m200
+[90m3:58PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.306162 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/swagger-ui.css [36mstatus=[0m200
+[90m3:58PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.40053 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/swagger-ui-standalone-preset.js [36mstatus=[0m200
+[90m3:58PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.908713 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/swagger-ui-bundle.js [36mstatus=[0m200
+[90m3:58PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.013008 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/doc.json [36mstatus=[0m500
+[90m3:58PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.069462 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/favicon-32x32.png [36mstatus=[0m200
+[90m3:58PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.300674 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/index.html [36mstatus=[0m200
+[90m3:58PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.064648 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/swagger-ui.css [36mstatus=[0m304
+[90m3:58PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.032057 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/swagger-ui-bundle.js [36mstatus=[0m304
+[90m3:58PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.027522 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/swagger-ui-standalone-preset.js [36mstatus=[0m304
+[90m3:58PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.024196 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/doc.json [36mstatus=[0m500
+[90m3:58PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.026475 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/favicon-32x32.png [36mstatus=[0m304
+[90m10:23AM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.963902 [36mmethod=[0mGET [36mpath=[0m/api/v1/post/ [36mstatus=[0m200
+[90m10:23AM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/post_create.go:24[0m[36m >[0m Bad Request: http: no such file
+[90m10:23AM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.192806 [36mmethod=[0mPOST [36mpath=[0m/api/v1/post/ [36mstatus=[0m500
+[90m10:25AM[0m [32mINF[0m [1mapp/internal/handler/post_create.go:48[0m[36m >[0m Created new post. Id: 46
+[90m10:25AM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m54.258276 [36mmethod=[0mPOST [36mpath=[0m/api/v1/post/ [36mstatus=[0m200
+[90m10:25AM[0m [32mINF[0m [1mapp/internal/handler/post_create.go:48[0m[36m >[0m Created new post. Id: 47
+[90m10:25AM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m6.067168 [36mmethod=[0mPOST [36mpath=[0m/api/v1/post/ [36mstatus=[0m200
+[90m10:26AM[0m [32mINF[0m [1mapp/internal/handler/post_create.go:48[0m[36m >[0m Created new post. Id: 48
+[90m10:26AM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m54.65183 [36mmethod=[0mPOST [36mpath=[0m/api/v1/post/ [36mstatus=[0m200
+[90m11:28AM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/post_create.go:32[0m[36m >[0m Internal Server Error: sql: converting argument $3 type: unsupported type []string, a slice of string [36mcd=[0m"app/internal/repository/post_create.go line: 17"
+[90m11:28AM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m3.781658 [36mmethod=[0mPOST [36mpath=[0m/api/v1/post/ [36mstatus=[0m500
+[90m11:32AM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/post_create.go:32[0m[36m >[0m Internal Server Error: sql: expected 4 arguments, got 5 [36mcd=[0m"app/internal/repository/post_create.go line: 25"
+[90m11:32AM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m2.927403 [36mmethod=[0mPOST [36mpath=[0m/api/v1/post/ [36mstatus=[0m500
+[90m11:36AM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/post_create.go:32[0m[36m >[0m Internal Server Error: sql: converting argument $3 type: unsupported type []interface {}, a slice of interface [36mcd=[0m"app/internal/repository/post_create.go line: 22"
+[90m11:36AM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m3.668785 [36mmethod=[0mPOST [36mpath=[0m/api/v1/post/ [36mstatus=[0m500
+[90m11:41AM[0m [32mINF[0m [1mapp/internal/handler/post_create.go:51[0m[36m >[0m Created a new post: 1
+[90m11:41AM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m7.888544 [36mmethod=[0mPOST [36mpath=[0m/api/v1/post/ [36mstatus=[0m200
+[90m11:46AM[0m [32mINF[0m [1mapp/internal/handler/post_create.go:51[0m[36m >[0m Created a new post: 2
+[90m11:46AM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m7.927966 [36mmethod=[0mPOST [36mpath=[0m/api/v1/post/ [36mstatus=[0m200
+[90m11:46AM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/post_get.go:13[0m[36m >[0m Internal Server Error: sql: Scan error on column index 4, name "images": unsupported Scan, storing driver.Value type []uint8 into type *[]string [36mcd=[0m"app/internal/repository/post_get.go line: 20"
+[90m11:46AM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.792983 [36mmethod=[0mGET [36mpath=[0m/api/v1/post/ [36mstatus=[0m500
+[90m11:48AM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.955965 [36mmethod=[0mGET [36mpath=[0m/api/v1/post/ [36mstatus=[0m200
+[90m11:54AM[0m [32mINF[0m [1mapp/internal/handler/post_create.go:51[0m[36m >[0m Created a new post: 3
+[90m11:54AM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m7.143359 [36mmethod=[0mPOST [36mpath=[0m/api/v1/post/ [36mstatus=[0m200
+[90m11:54AM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.752603 [36mmethod=[0mGET [36mpath=[0m/api/v1/post/ [36mstatus=[0m200
+[90m11:54AM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.016854 [36mmethod=[0mGET [36mpath=[0m/post_image/1/Screenshot [36mstatus=[0m404
+[90m11:54AM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.019036 [36mmethod=[0mGET [36mpath=[0m/post_image/1/Screenshot [36mstatus=[0m404
+[90m11:55AM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m4.674884 [36mmethod=[0mGET [36mpath=[0m"/post_image/1/Screenshot from 2024-02-01 18-07-05.png" [36mstatus=[0m200
+[90m11:56AM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.991778 [36mmethod=[0mGET [36mpath=[0m/api/v1/post/ [36mstatus=[0m200
+[90m11:56AM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m5.235726 [36mmethod=[0mGET [36mpath=[0m"/post_image/1/Screenshot from 2024-02-01 18-07-05.png" [36mstatus=[0m200
+[90m4:32PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.001311 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m404
+[90m4:33PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sign-up.go:28[0m[36m >[0m Bad Request: Password validation failed [36mcd=[0m"app/internal/service/user_sign-up.go line: 14"
+[90m4:33PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m1.487375 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m400
+[90m5:02PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sign-up.go:28[0m[36m >[0m Bad Request: Password validation failed [36mcd=[0m"app/internal/service/user_sign-up.go line: 14"
+[90m5:02PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m1.436079 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m400
+[90m5:02PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sign-up.go:28[0m[36m >[0m Internal Server Error: sql: no rows in result set [36mcd=[0m"app/internal/repository/user_sign-up.go line: 12"
+[90m5:02PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m76.79702 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m500
+[90m5:02PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sign-up.go:28[0m[36m >[0m Internal Server Error: sql: no rows in result set [36mcd=[0m"app/internal/repository/user_sign-up.go line: 12"
+[90m5:02PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m66.975302 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m500
+[90m5:03PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sign-up.go:28[0m[36m >[0m Internal Server Error: sql: no rows in result set [36mcd=[0m"app/internal/repository/user_sign-up.go line: 12"
+[90m5:03PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m67.391949 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m500
+[90m5:04PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sign-up.go:28[0m[36m >[0m Internal Server Error: sql: no rows in result set [36mcd=[0m"app/internal/repository/user_sign-up.go line: 12"
+[90m5:04PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m67.691095 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m500
+[90m5:04PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sign-up.go:28[0m[36m >[0m Bad Request: Password validation failed [36mcd=[0m"app/internal/service/user_sign-up.go line: 14"
+[90m5:04PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m1.008886 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m400
+[90m5:04PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sign-up.go:28[0m[36m >[0m Bad Request: Password validation failed [36mcd=[0m"app/internal/service/user_sign-up.go line: 14"
+[90m5:04PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m43.61197 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m400
+[90m5:04PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sign-up.go:28[0m[36m >[0m Bad Request: Password validation failed [36mcd=[0m"app/internal/service/user_sign-up.go line: 14"
+[90m5:04PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m7.438202 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m400
+[90m5:05PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sign-up.go:28[0m[36m >[0m Bad Request: Password validation failed [36mcd=[0m"app/internal/service/user_sign-up.go line: 14"
+[90m5:05PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m2.00791 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m400
+[90m5:05PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sign-up.go:28[0m[36m >[0m Bad Request: Password validation failed [36mcd=[0m"app/internal/service/user_sign-up.go line: 14"
+[90m5:05PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m1.142822 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m400
+[90m5:08PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sign-up.go:28[0m[36m >[0m Bad Request: Password validation failed [36mcd=[0m"app/internal/service/user_sign-up.go line: 14"
+[90m5:08PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m1.150974 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m400
+[90m5:09PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sign-up.go:28[0m[36m >[0m Bad Request: Password validation failed [36mcd=[0m"app/internal/service/user_sign-up.go line: 14"
+[90m5:09PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m47.564301 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m400
+[90m5:09PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sign-up.go:28[0m[36m >[0m Bad Request: Password validation failed [36mcd=[0m"app/internal/service/user_sign-up.go line: 14"
+[90m5:09PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m44.46287 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m400
+[90m5:10PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sign-up.go:28[0m[36m >[0m Bad Request: Password validation failed [36mcd=[0m"app/internal/service/user_sign-up.go line: 14"
+[90m5:10PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m41.052282 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m400
+[90m5:10PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sign-up.go:28[0m[36m >[0m Bad Request: Password validation failed [36mcd=[0m"app/internal/service/user_sign-up.go line: 14"
+[90m5:10PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m1.200395 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m400
+[90m5:13PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sign-up.go:28[0m[36m >[0m Internal Server Error: sql: no rows in result set [36mcd=[0m"app/internal/repository/user_sign-up.go line: 12"
+[90m5:13PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m66.828271 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m500
+[90m5:17PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sign-up.go:28[0m[36m >[0m Internal Server Error: sql: no rows in result set [36mcd=[0m"app/internal/repository/user_sign-up.go line: 12"
+[90m5:17PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m68.363635 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m500
+[90m5:17PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sign-up.go:28[0m[36m >[0m Internal Server Error: sql: no rows in result set [36mcd=[0m"app/internal/repository/user_sign-up.go line: 12"
+[90m5:17PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m66.783443 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m500
+[90m5:17PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sign-up.go:28[0m[36m >[0m Internal Server Error: sql: no rows in result set [36mcd=[0m"app/internal/repository/user_sign-up.go line: 12"
+[90m5:17PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m65.879095 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m500
+[90m5:17PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sign-up.go:28[0m[36m >[0m Bad Request: Password validation failed [36mcd=[0m"app/internal/service/user_sign-up.go line: 14"
+[90m5:17PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m2.571537 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m400
+[90m5:17PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sign-up.go:28[0m[36m >[0m Internal Server Error: sql: no rows in result set [36mcd=[0m"app/internal/repository/user_sign-up.go line: 12"
+[90m5:17PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m140.219068 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m500
+[90m5:17PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sign-up.go:28[0m[36m >[0m Internal Server Error: sql: no rows in result set [36mcd=[0m"app/internal/repository/user_sign-up.go line: 12"
+[90m5:17PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m65.928785 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m500
+[90m5:20PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sign-up.go:28[0m[36m >[0m Bad Request: Password validation failed [36mcd=[0m"app/internal/service/user_sign-up.go line: 14"
+[90m5:20PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m1.116738 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m400
+[90m5:20PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sign-up.go:28[0m[36m >[0m Bad Request: Password validation failed [36mcd=[0m"app/internal/service/user_sign-up.go line: 14"
+[90m5:20PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m44.626289 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m400
+[90m5:20PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sign-up.go:28[0m[36m >[0m Bad Request: Password validation failed [36mcd=[0m"app/internal/service/user_sign-up.go line: 14"
+[90m5:20PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m47.139037 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m400
+[90m5:20PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sign-up.go:28[0m[36m >[0m Bad Request: Password validation failed [36mcd=[0m"app/internal/service/user_sign-up.go line: 14"
+[90m5:20PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m43.17891 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m400
+[90m5:20PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sign-up.go:28[0m[36m >[0m Bad Request: Password validation failed [36mcd=[0m"app/internal/service/user_sign-up.go line: 14"
+[90m5:20PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m43.248018 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m400
+[90m5:22PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sign-up.go:28[0m[36m >[0m Bad Request: Password validation failed. [36mcd=[0m"app/internal/service/user_sign-up.go line: 14"
+[90m5:22PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m1.191447 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m400
+[90m5:24PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sign-up.go:28[0m[36m >[0m Bad Request: Password validation failed. [36mcd=[0m"app/internal/service/user_sign-up.go line: 14"
+[90m5:24PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.926398 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m400
+[90m5:25PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sign-up.go:28[0m[36m >[0m Bad Request: Password validation failed. [36mcd=[0m"app/internal/service/user_sign-up.go line: 14"
+[90m5:25PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m1.085851 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m400
+[90m5:28PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sign-up.go:28[0m[36m >[0m Bad Request: Password validation failed. Password must contain at least one lowercase letter, one uppercase letter, one digit, and have a length between 8 and 64 characters. [36mcd=[0m"app/internal/service/user_sign-up.go line: 14"
+[90m5:28PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m1.006709 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m400
+[90m5:29PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sign-up.go:28[0m[36m >[0m Bad Request: Password validation failed [36mcd=[0m"app/internal/service/user_sign-up.go line: 14"
+[90m5:29PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m1.119733 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m400
+[90m5:29PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sign-up.go:28[0m[36m >[0m Bad Request: Password validation failed [36mcd=[0m"app/internal/service/user_sign-up.go line: 14"
+[90m5:29PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m1.202546 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m400
+[90m5:31PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sign-up.go:28[0m[36m >[0m Bad Request: Password validation failed [36mcd=[0m"app/internal/service/user_sign-up.go line: 14"
+[90m5:31PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.967968 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m400
+[90m5:52PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sign-up.go:28[0m[36m >[0m Internal Server Error: sql: no rows in result set [36mcd=[0m"app/internal/repository/user_sign-up.go line: 12"
+[90m5:52PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m66.317962 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m500
+[90m5:52PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sign-up.go:28[0m[36m >[0m Bad Request: Password validation failed [36mcd=[0m"app/internal/service/user_sign-up.go line: 14"
+[90m5:52PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m2.932561 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m400
+[90m5:52PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sign-up.go:28[0m[36m >[0m Internal Server Error: sql: no rows in result set [36mcd=[0m"app/internal/repository/user_sign-up.go line: 12"
+[90m5:52PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m67.11293 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m500
+[90m5:52PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sign-up.go:28[0m[36m >[0m Internal Server Error: sql: no rows in result set [36mcd=[0m"app/internal/repository/user_sign-up.go line: 12"
+[90m5:52PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m68.709438 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m500
+[90m5:53PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sign-up.go:28[0m[36m >[0m Bad Request: Password validation failed [36mcd=[0m"app/internal/service/user_sign-up.go line: 14"
+[90m5:53PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m2.904377 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m400
+[90m5:53PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sign-up.go:28[0m[36m >[0m Bad Request: Password validation failed [36mcd=[0m"app/internal/service/user_sign-up.go line: 14"
+[90m5:53PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m47.777029 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m400
+[90m5:55PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sign-up.go:28[0m[36m >[0m Internal Server Error: sql: no rows in result set [36mcd=[0m"app/internal/repository/user_sign-up.go line: 12"
+[90m5:55PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m68.826143 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m500
+[90m5:59PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sign-up.go:28[0m[36m >[0m Internal Server Error: sql: no rows in result set [36mcd=[0m"app/internal/repository/user_sign-up.go line: 12"
+[90m5:59PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m65.382986 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m500
+[90m6:05PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sign-up.go:28[0m[36m >[0m Internal Server Error: sql: no rows in result set [36mcd=[0m"app/internal/repository/user_sign-up.go line: 13"
+[90m6:05PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m67.50285 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m500
+[90m6:08PM[0m [32mINF[0m [1mapp/internal/handler/user_sign-up.go:39[0m[36m >[0m Successully created a new user
+[90m6:08PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m66.094029 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m200
+[90m6:11PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sign-up.go:28[0m[36m >[0m Bad Request: Email is already exist [36mcd=[0m"app/internal/repository/user_sign-up.go line: 13"
+[90m6:11PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m66.275253 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m400
+[90m6:11PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sign-up.go:28[0m[36m >[0m Bad Request: Email is already exist [36mcd=[0m"app/internal/repository/user_sign-up.go line: 13"
+[90m6:11PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m65.548338 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m400
+[90m6:12PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sign-up.go:28[0m[36m >[0m Bad Request: sql: no rows in result set [36mcd=[0m"app/internal/repository/user_sign-up.go line: 13"
+[90m6:12PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m67.316855 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m400
+[90m6:13PM[0m [32mINF[0m [1mapp/internal/handler/user_sign-up.go:39[0m[36m >[0m Successully created a new user
+[90m6:13PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m70.358818 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m200
+[90m6:13PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sign-up.go:28[0m[36m >[0m Bad Request: Email is already exist [36mcd=[0m"app/internal/repository/user_sign-up.go line: 13"
+[90m6:13PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m72.236122 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m400
+[90m6:14PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sign-up.go:28[0m[36m >[0m Bad Request: Invalid email format [36mcd=[0m"app/internal/service/user_sign-up.go line: 14"
+[90m6:14PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m2.450143 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m400
+[90m6:14PM[0m [32mINF[0m [1mapp/internal/handler/user_sign-up.go:39[0m[36m >[0m Successully created a new user
+[90m6:14PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m111.774573 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m200
+[90m6:15PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.001386 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-in [36mstatus=[0m404
+[90m6:53PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.001172 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-in [36mstatus=[0m404
+[90m6:53PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sign-up.go:28[0m[36m >[0m Bad Request: Email is already exist [36mcd=[0m"app/internal/repository/user_sign-up.go line: 13"
+[90m6:53PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m140.172004 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m400
+[90m6:54PM[0m [32mINF[0m [1mapp/internal/handler/user_sign-up.go:39[0m[36m >[0m Successully created a new user
+[90m6:54PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m79.2446 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m200
+[90m7:41PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sing-in.go:23[0m[36m >[0m Internal Server Error: sql: expected 1 arguments, got 2 [36mcd=[0m"app/internal/repository/user_sign-in.go line: 23"
+[90m7:41PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m1.402964 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-in [36mstatus=[0m500
+[90m7:49PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sing-in.go:23[0m[36m >[0m Bad Request: Password is not correct [36mcd=[0m"app/internal/service/user_sign-in.go line: 21"
+[90m7:49PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m1.128098 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-in [36mstatus=[0m400
+[90m7:53PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sing-in.go:23[0m[36m >[0m Internal Server Error: sql: expected 1 arguments, got 2 [36mcd=[0m"app/internal/repository/user_sign-in.go line: 23"
+[90m7:53PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m1.561609 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-in [36mstatus=[0m500
+[90m7:55PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sing-in.go:23[0m[36m >[0m Internal Server Error: sql: expected 1 arguments, got 2 [36mcd=[0m"app/internal/repository/user_sign-in.go line: 23"
+[90m7:55PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m1.532535 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-in [36mstatus=[0m500
+[90m7:55PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sing-in.go:23[0m[36m >[0m Internal Server Error: sql: expected 1 arguments, got 2 [36mcd=[0m"app/internal/repository/user_sign-in.go line: 23"
+[90m7:55PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m1.029966 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-in [36mstatus=[0m500
+[90m7:56PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sing-in.go:23[0m[36m >[0m Internal Server Error: sql: expected 1 arguments, got 2 [36mcd=[0m"app/internal/repository/user_sign-in.go line: 25"
+[90m7:56PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m1.443394 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-in [36mstatus=[0m500
+[90m7:57PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sing-in.go:23[0m[36m >[0m Bad Request: Email is already exist [36mcd=[0m"app/internal/repository/user_sign-in.go line: 14"
+[90m7:57PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m1.344705 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-in [36mstatus=[0m400
+[90m8:01PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sign-up.go:29[0m[36m >[0m Bad Request: Email is already exist [36mcd=[0m"app/internal/repository/user_sign-up.go line: 13"
+[90m8:01PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m66.075266 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m400
+[90m8:02PM[0m [32mINF[0m [1mapp/internal/handler/user_sign-up.go:40[0m[36m >[0m Signed up a new user: 4
+[90m8:02PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m71.608267 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m200
+[90m8:02PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sing-in.go:23[0m[36m >[0m Internal Server Error: sql: expected 1 arguments, got 2 [36mcd=[0m"app/internal/repository/user_sign-in.go line: 23"
+[90m8:02PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m1.183228 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-in [36mstatus=[0m500
+[90m8:04PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sing-in.go:23[0m[36m >[0m Internal Server Error: sql: expected 1 arguments, got 2 [36mcd=[0m"app/internal/repository/user_sign-in.go line: 30"
+[90m8:04PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m1.652489 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-in [36mstatus=[0m500
+[90m8:04PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sing-in.go:23[0m[36m >[0m Internal Server Error: sql: expected 1 arguments, got 2 [36mcd=[0m"app/internal/repository/user_sign-in.go line: 30"
+[90m8:04PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.9414 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-in [36mstatus=[0m500
+[90m8:16PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sing-in.go:23[0m[36m >[0m Internal Server Error: scannable dest type struct with >1 columns (2) in result [36mcd=[0m"app/internal/repository/user_sign-in.go line: 28"
+[90m8:16PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m1.711652 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-in [36mstatus=[0m500
+[90m8:18PM[0m [32mINF[0m [1mapp/internal/handler/user_sing-in.go:28[0m[36m >[0m Signed in to account: 4
+[90m8:18PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m65.035127 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-in [36mstatus=[0m200
+[90m8:18PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sing-in.go:23[0m[36m >[0m Bad Request: Password is not correct [36mcd=[0m"app/internal/service/user_sign-in.go line: 21"
+[90m8:18PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m65.261419 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-in [36mstatus=[0m400
+[90m8:18PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sing-in.go:23[0m[36m >[0m Bad Request: Email is already exist [36mcd=[0m"app/internal/repository/user_sign-in.go line: 12"
+[90m8:18PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.800814 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-in [36mstatus=[0m400
+[90m8:25PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sing-in.go:23[0m[36m >[0m Internal Server Error: sql: no rows in result set [36mcd=[0m"app/internal/repository/user_sign-in.go line: 28"
+[90m8:25PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m1.658818 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-in [36mstatus=[0m500
+[90m8:27PM[0m [32mINF[0m [1mapp/internal/handler/user_sing-in.go:28[0m[36m >[0m Signed in to account: 4
+[90m8:27PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m65.578076 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-in [36mstatus=[0m200
+[90m8:28PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sing-in.go:23[0m[36m >[0m Not Found: User account does not exist [36mcd=[0m"app/internal/repository/user_sign-in.go line: 12"
+[90m8:28PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m1.209756 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-in [36mstatus=[0m404
+[90m8:28PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sing-in.go:23[0m[36m >[0m Bad Request: Password is not correct [36mcd=[0m"app/internal/service/user_sign-in.go line: 21"
+[90m8:28PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.938924 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-in [36mstatus=[0m400
+[90m8:29PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sing-in.go:23[0m[36m >[0m Bad Request: Password is not correct [36mcd=[0m"app/internal/service/user_sign-in.go line: 21"
+[90m8:29PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.945075 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-in [36mstatus=[0m400
+[90m8:29PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sing-in.go:23[0m[36m >[0m Bad Request: Password is not correct [36mcd=[0m"app/internal/service/user_sign-in.go line: 21"
+[90m8:29PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.795706 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-in [36mstatus=[0m400
+[90m8:29PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sing-in.go:23[0m[36m >[0m Bad Request: Password is not correct [36mcd=[0m"app/internal/service/user_sign-in.go line: 21"
+[90m8:29PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.943799 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-in [36mstatus=[0m400
+[90m8:29PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sing-in.go:23[0m[36m >[0m Not Found: User account does not exist [36mcd=[0m"app/internal/repository/user_sign-in.go line: 12"
+[90m8:29PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.922996 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-in [36mstatus=[0m404
+[90m8:30PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sign-up.go:29[0m[36m >[0m Not Found: User account does not exist [36mcd=[0m"app/internal/repository/user_sign-up.go line: 13"
+[90m8:30PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m110.746195 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m404
+[90m8:30PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sign-up.go:29[0m[36m >[0m Not Found: User account does not exist [36mcd=[0m"app/internal/repository/user_sign-up.go line: 13"
+[90m8:30PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m65.941242 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m404
+[90m8:30PM[0m [32mINF[0m [1mapp/internal/handler/user_sign-up.go:40[0m[36m >[0m Signed up a new user: 5
+[90m8:30PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m70.910532 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m200
+[90m8:30PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sing-in.go:23[0m[36m >[0m Bad Request: Password is not correct [36mcd=[0m"app/internal/service/user_sign-in.go line: 21"
+[90m8:30PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m1.060992 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-in [36mstatus=[0m400
+[90m8:30PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sing-in.go:23[0m[36m >[0m Bad Request: Password is not correct [36mcd=[0m"app/internal/service/user_sign-in.go line: 21"
+[90m8:30PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.99852 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-in [36mstatus=[0m400
+[90m8:32PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sing-in.go:23[0m[36m >[0m Bad Request: crypto/bcrypt: hashedSecret too short to be a bcrypted password [36mcd=[0m"app/internal/service/user_sign-in.go line: 21"
+[90m8:32PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m1.539112 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-in [36mstatus=[0m400
+[90m8:33PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sing-in.go:23[0m[36m >[0m Bad Request: crypto/bcrypt: hashedSecret too short to be a bcrypted password [36mcd=[0m"app/internal/service/user_sign-in.go line: 21"
+[90m8:33PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m1.780794 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-in [36mstatus=[0m400
+[90m8:34PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sing-in.go:23[0m[36m >[0m Bad Request: crypto/bcrypt: hashedSecret too short to be a bcrypted password [36mcd=[0m"app/internal/service/user_sign-in.go line: 21"
+[90m8:34PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m1.374618 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-in [36mstatus=[0m400
+[90m8:34PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sing-in.go:23[0m[36m >[0m Bad Request: crypto/bcrypt: hashedSecret too short to be a bcrypted password [36mcd=[0m"app/internal/service/user_sign-in.go line: 21"
+[90m8:34PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m1.680478 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-in [36mstatus=[0m400
+[90m8:35PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sing-in.go:23[0m[36m >[0m Bad Request: crypto/bcrypt: hashedSecret too short to be a bcrypted password [36mcd=[0m"app/internal/service/user_sign-in.go line: 21"
+[90m8:35PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m1.546489 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-in [36mstatus=[0m400
+[90m8:49PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sing-in.go:23[0m[36m >[0m Bad Request: crypto/bcrypt: hashedSecret too short to be a bcrypted password [36mcd=[0m"app/internal/service/user_sign-in.go line: 23"
+[90m8:49PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m1.825875 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-in [36mstatus=[0m400
+[90m8:49PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sing-in.go:23[0m[36m >[0m Bad Request: crypto/bcrypt: hashedSecret too short to be a bcrypted password [36mcd=[0m"app/internal/service/user_sign-in.go line: 23"
+[90m8:49PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m1.474015 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-in [36mstatus=[0m400
+[90m8:54PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sing-in.go:23[0m[36m >[0m Bad Request: crypto/bcrypt: hashedSecret too short to be a bcrypted password [36mcd=[0m"app/internal/service/user_sign-in.go line: 23"
+[90m8:54PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m1.660606 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-in [36mstatus=[0m400
+[90m8:55PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sing-in.go:23[0m[36m >[0m Bad Request: crypto/bcrypt: hashedSecret too short to be a bcrypted password [36mcd=[0m"app/internal/service/user_sign-in.go line: 23"
+[90m8:55PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m1.684267 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-in [36mstatus=[0m400
+[90m8:57PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sing-in.go:23[0m[36m >[0m Bad Request: crypto/bcrypt: hashedSecret too short to be a bcrypted password [36mcd=[0m"app/internal/service/user_sign-in.go line: 23"
+[90m8:57PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m1.769807 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-in [36mstatus=[0m400
+[90m8:58PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sing-in.go:23[0m[36m >[0m Bad Request: crypto/bcrypt: hashedSecret too short to be a bcrypted password [36mcd=[0m"app/internal/service/user_sign-in.go line: 23"
+[90m8:58PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m1.43138 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-in [36mstatus=[0m400
+[90m9:01PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sing-in.go:23[0m[36m >[0m Bad Request: crypto/bcrypt: hashedSecret too short to be a bcrypted password [36mcd=[0m"app/internal/service/user_sign-in.go line: 23"
+[90m9:01PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m1.425752 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-in [36mstatus=[0m400
+[90m9:02PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sing-in.go:23[0m[36m >[0m Bad Request: crypto/bcrypt: hashedSecret too short to be a bcrypted password [36mcd=[0m"app/internal/service/user_sign-in.go line: 23"
+[90m9:02PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.834922 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-in [36mstatus=[0m400
+[90m9:02PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sing-in.go:23[0m[36m >[0m Not Found: User account does not exist [36mcd=[0m"app/internal/repository/user_sign-in.go line: 12"
+[90m9:02PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m3.158765 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-in [36mstatus=[0m404
+[90m9:06PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sing-in.go:23[0m[36m >[0m Not Found: User account does not exist [36mcd=[0m"app/internal/repository/user_sign-in.go line: 12"
+[90m9:06PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m1.710797 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-in [36mstatus=[0m404
+[90m9:06PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sing-in.go:23[0m[36m >[0m Bad Request: crypto/bcrypt: hashedSecret too short to be a bcrypted password [36mcd=[0m"app/internal/service/user_sign-in.go line: 23"
+[90m9:06PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.899109 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-in [36mstatus=[0m400
+[90m11:56PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sing-in.go:23[0m[36m >[0m Bad Request: crypto/bcrypt: hashedSecret too short to be a bcrypted password [36mcd=[0m"app/internal/service/user_sign-in.go line: 23"
+[90m11:56PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m1.663801 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-in [36mstatus=[0m400
+[90m11:59PM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sing-in.go:23[0m[36m >[0m Bad Request: crypto/bcrypt: hashedSecret too short to be a bcrypted password [36mcd=[0m"app/internal/service/user_sign-in.go line: 23"
+[90m11:59PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.861445 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-in [36mstatus=[0m400
+[90m12:01AM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sing-in.go:23[0m[36m >[0m Bad Request: crypto/bcrypt: hashedSecret too short to be a bcrypted password [36mcd=[0m"app/internal/service/user_sign-in.go line: 23"
+[90m12:01AM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m1.808012 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-in [36mstatus=[0m400
+[90m12:04AM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sing-in.go:23[0m[36m >[0m Not Found: Checker [36mcd=[0m"app/internal/service/user_sign-in.go line: 19"
+[90m12:04AM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m1.437953 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-in [36mstatus=[0m200
+[90m12:06AM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sing-in.go:23[0m[36m >[0m Not Found: User account does not exist [36mcd=[0m"app/internal/repository/user_sign-in.go line: 12"
+[90m12:06AM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m1.450053 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-in [36mstatus=[0m404
+[90m12:16AM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sing-in.go:23[0m[36m >[0m Bad Request: Email is already exist [36mcd=[0m"app/internal/repository/user_sign-in.go line: 12"
+[90m12:16AM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m1.443095 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-in [36mstatus=[0m400
+[90m12:16AM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sing-in.go:23[0m[36m >[0m Bad Request: crypto/bcrypt: hashedPassword is not the hash of the given password [36mcd=[0m"app/internal/service/user_sign-in.go line: 25"
+[90m12:16AM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m65.128512 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-in [36mstatus=[0m400
+[90m12:17AM[0m [32mINF[0m [1mapp/internal/handler/user_sign-up.go:40[0m[36m >[0m Signed up a new user: 6
+[90m12:17AM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m72.015826 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m200
+[90m12:17AM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sing-in.go:23[0m[36m >[0m Bad Request: crypto/bcrypt: hashedPassword is not the hash of the given password [36mcd=[0m"app/internal/service/user_sign-in.go line: 25"
+[90m12:17AM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m64.620033 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-in [36mstatus=[0m400
+[90m12:17AM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sign-up.go:29[0m[36m >[0m Bad Request: Email is already exist [36mcd=[0m"app/internal/repository/user_sign-up.go line: 13"
+[90m12:17AM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m66.087096 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m400
+[90m12:18AM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sign-up.go:29[0m[36m >[0m Bad Request: Email is already exist [36mcd=[0m"app/internal/repository/user_sign-up.go line: 13"
+[90m12:18AM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m66.332355 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m400
+[90m12:19AM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sing-in.go:23[0m[36m >[0m Bad Request: crypto/bcrypt: hashedPassword is not the hash of the given password [36mcd=[0m"app/internal/service/user_sign-in.go line: 23"
+[90m12:19AM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m65.604423 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-in [36mstatus=[0m400
+[90m12:20AM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sing-in.go:23[0m[36m >[0m Bad Request: crypto/bcrypt: hashedPassword is not the hash of the given password [36mcd=[0m"app/internal/service/user_sign-in.go line: 23"
+[90m12:20AM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m65.17686 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-in [36mstatus=[0m400
+[90m12:22AM[0m [32mINF[0m [1mapp/internal/handler/user_sing-in.go:28[0m[36m >[0m Signed in to account: 6
+[90m12:22AM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m66.465689 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-in [36mstatus=[0m200
+[90m12:22AM[0m [32mINF[0m [1mapp/internal/handler/user_sing-in.go:28[0m[36m >[0m Signed in to account: 6
+[90m12:22AM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m66.550661 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-in [36mstatus=[0m200
+[90m12:29AM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sing-in.go:23[0m[36m >[0m Bad Request: crypto/bcrypt: hashedPassword is not the hash of the given password [36mcd=[0m"app/internal/service/user_sign-in.go line: 23"
+[90m12:29AM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m66.505542 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-in [36mstatus=[0m400
+[90m12:29AM[0m [32mINF[0m [1mapp/internal/handler/user_sing-in.go:28[0m[36m >[0m Signed in to account: 6
+[90m12:29AM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m65.876789 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-in [36mstatus=[0m200
+[90m12:29AM[0m [32mINF[0m [1mapp/internal/handler/user_sing-in.go:28[0m[36m >[0m Signed in to account: 6
+[90m12:29AM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m65.504535 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-in [36mstatus=[0m200
+[90m12:29AM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sign-up.go:29[0m[36m >[0m Bad Request: Email is already exist [36mcd=[0m"app/internal/repository/user_sign-up.go line: 13"
+[90m12:29AM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m66.505624 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m400
+[90m12:30AM[0m [32mINF[0m [1mapp/internal/handler/user_sign-up.go:40[0m[36m >[0m Signed up a new user: 7
+[90m12:30AM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m69.121816 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m200
+[90m9:44AM[0m [32mINF[0m [1mapp/internal/handler/user_sing-in.go:28[0m[36m >[0m Signed in to account: 7
+[90m9:44AM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m66.404154 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-in [36mstatus=[0m200
