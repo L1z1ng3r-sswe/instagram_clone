@@ -17,6 +17,14 @@ func (h *Handler) CreatePost(ctx *gin.Context) {
 		return
 	}
 
+	userId, exist := ctx.Get("user_id")
+	if !exist {
+		ctx.AbortWithStatusJSON(http.StatusUnauthorized, gin.H{"Unauthorized": "user id not found"})
+		fmt.Println("id: ", userId)
+		return
+	}
+	post.CreatedBy = userId.(int)
+
 	file, err := ctx.FormFile("main_image")
 	if err != nil {
 		ctx.AbortWithStatusJSON(http.StatusBadRequest, gin.H{"Bad Request": err.Error()})

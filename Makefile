@@ -1,6 +1,6 @@
 export PATH := $(shell go env GOPATH)/bin:$(PATH)
 
-BUILD_DIR = app/build
+BUILD_DIR = app/cmd/build
 BINARY_APP = binary_app
 BUILD_SRC = app/cmd/main.go
 

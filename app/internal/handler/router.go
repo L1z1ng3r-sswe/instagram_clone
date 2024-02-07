@@ -1,6 +1,7 @@
 package handler
 
 import (
+	"github.com/L1z1ng3r-sswe/instagram_clone/app/internal/middleware"
 	"github.com/L1z1ng3r-sswe/instagram_clone/app/pkg/logging"
 	"github.com/gin-gonic/gin"
 )
@@ -14,7 +15,7 @@ func (h *Handler) SetUpRoutes() *gin.Engine {
 
 	post := v1.Group("/post")
 	{
-		post.POST("/", h.CreatePost)
+		post.POST("/", middleware.IsAuthMiddleware(), h.CreatePost)
 		post.GET("/", h.GetPosts)
 	}
 

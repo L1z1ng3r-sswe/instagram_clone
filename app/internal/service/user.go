@@ -2,6 +2,7 @@ package service
 
 import (
 	"errors"
+	"fmt"
 	"mime/multipart"
 	"net/http"
 	"os"
@@ -150,12 +151,12 @@ func (service *userService) tokensHandler(userId int) (error, model.Tokens) {
 	var err error
 	var tokens model.Tokens
 
-	tokens.AccessToken, err = service.creteAccessToken(userId)
+	tokens.AccessToken, err = CreteAccessToken(userId)
 	if err != nil {
 		return err, tokens
 	}
 
-	tokens.RefreshToken, err = service.createRefreshToken(userId)
+	tokens.RefreshToken, err = CreateRefreshToken(userId)
 	if err != nil {
 		return err, tokens
 	}
@@ -163,12 +164,68 @@ func (service *userService) tokensHandler(userId int) (error, model.Tokens) {
 	return nil, tokens
 }
 
-func (service *userService) creteAccessToken(userId int) (string, error) {
-	claims := jwt.MapClaims{"sub": userId, "exp": time.Now().Add(time.Minute * 15).Unix()}
+func CreteAccessToken(userId int) (string, error) {
+	claims := jwt.MapClaims{"sub": userId, "exp": time.Now().Add(time.Minute * 1).Unix()}
 	return jwt.NewWithClaims(jwt.SigningMethodHS256, claims).SignedString([]byte(os.Getenv("ACCESS_SECRET_KEY")))
 }
 
-func (service *userService) createRefreshToken(userId int) (string, error) {
+func CreateRefreshToken(userId int) (string, error) {
 	claims := jwt.MapClaims{"sub": userId, "exp": time.Now().Add(time.Hour * 24 * 30).Unix()}
 	return jwt.NewWithClaims(jwt.SigningMethodHS256, claims).SignedString([]byte(os.Getenv("REFRESH_SECRET_KEY")))
+}
+
+func IsTokenValid(tokenString string, isRefreshToken bool) (error, string, string, int, string, int) {
+	secretKey := os.Getenv("ACCESS_SECRET_KEY")
+	if isRefreshToken {
+		secretKey = os.Getenv("REFRESH_SECRET_KEY")
+	}
+
+	if tokenString == "" {
+		return errors.New("Token is empty"), "Unauthorized", "Token is empty", http.StatusUnauthorized, getFileInfo("user.go"), 0
+	}
+
+	tokenSlice := strings.Split(tokenString, " ")
+	if len(tokenSlice) != 2 || tokenSlice[0] != "Bearer" {
+		return errors.New("Invalid authorization header format"), "Unauthorized", "Invalid authorization header format", http.StatusUnauthorized, getFileInfo("user.go"), 0
+	}
+
+	fmt.Println(tokenString, tokenSlice[0], tokenSlice[1])
+	token, err := jwt.Parse(tokenSlice[1], func(token *jwt.Token) (interface{}, error) {
+		if _, ok := token.Method.(*jwt.SigningMethodHMAC); !ok {
+			return nil, errors.New("Unexpected signing method: " + token.Header["alg"].(string))
+		}
+		return []byte(secretKey), nil
+	})
+
+	if err != nil {
+		if ve, ok := err.(*jwt.ValidationError); ok {
+			if ve.Errors&jwt.ValidationErrorMalformed != 0 {
+				return errors.New("Invalid token"), "Unauthorized", "Token is malformed", http.StatusUnauthorized, getFileInfo("user.go"), 0
+			} else if ve.Errors&jwt.ValidationErrorExpired != 0 {
+				return errors.New("Invalid token"), "Unauthorized", "Token has expired", http.StatusUnauthorized, getFileInfo("user.go"), 0
+			} else if ve.Errors&jwt.ValidationErrorNotValidYet != 0 {
+				return errors.New("Invalid token"), "Unauthorized", "Token not yet valid", http.StatusUnauthorized, getFileInfo("user.go"), 0
+			} else {
+				return errors.New("Invalid token"), "Unauthorized", "Couldn't handle this token", http.StatusUnauthorized, getFileInfo("user.go"), 0
+			}
+		}
+		return errors.New("Invalid token"), "Unauthorized", "Couldn't handle this token", http.StatusUnauthorized, getFileInfo("user.go"), 0
+	}
+
+	if !token.Valid {
+		return errors.New("Invalid token"), "Unauthorized", "Invalid token", http.StatusUnauthorized, getFileInfo("user.go"), 0
+	}
+
+	claims, ok := token.Claims.(jwt.MapClaims)
+	if !ok {
+		return errors.New("Invalid token claims"), "Unauthorized", "Invalid token claims", http.StatusUnauthorized, getFileInfo("user.go"), 0
+	}
+
+	userIdFloat, ok := claims["sub"].(float64)
+	if !ok {
+		return errors.New("Invalid userId in token"), "Unauthorized", "Invalid userId in token", http.StatusUnauthorized, getFileInfo("user.go"), 0
+	}
+
+	userId := int(userIdFloat)
+	return nil, "", "", http.StatusOK, "", userId
 }
