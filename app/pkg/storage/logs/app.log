@@ -767,3 +767,17 @@
 [90m4:33PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.305284 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/swagger-ui-standalone-preset.js [36mstatus=[0m200
 [90m4:33PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.016303 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/doc.json [36mstatus=[0m500
 [90m4:33PM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.042838 [36mmethod=[0mGET [36mpath=[0m/api/v1/swagger/favicon-32x32.png [36mstatus=[0m200
+[90m8:53AM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sign-up.go:15[0m[36m >[0m Bad Request: no multipart boundary param in Content-Type
+[90m8:53AM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.339046 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m400
+[90m8:56AM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sign-up.go:15[0m[36m >[0m Bad Request: no multipart boundary param in Content-Type
+[90m8:56AM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.88552 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m400
+[90m8:56AM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sign-up.go:15[0m[36m >[0m Bad Request: no multipart boundary param in Content-Type
+[90m8:56AM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.529599 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m400
+[90m8:59AM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sign-up.go:15[0m[36m >[0m Bad Request: no multipart boundary param in Content-Type
+[90m8:59AM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.624541 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m400
+[90m8:59AM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sign-up.go:15[0m[36m >[0m Bad Request: no multipart boundary param in Content-Type
+[90m8:59AM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.52153 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m400
+[90m9:00AM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sign-up.go:15[0m[36m >[0m Bad Request: no multipart boundary param in Content-Type
+[90m9:00AM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.505431 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m400
+[90m9:01AM[0m [1m[31mERR[0m[0m [1mapp/internal/handler/user_sign-up.go:15[0m[36m >[0m Bad Request: no multipart boundary param in Content-Type
+[90m9:01AM[0m [32mINF[0m [1mapp/pkg/logging/logging_mw.go:18[0m[36m >[0m Request [36mlatency=[0m0.779485 [36mmethod=[0mPOST [36mpath=[0m/api/v1/user/sign-up [36mstatus=[0m400

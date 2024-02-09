@@ -3,11 +3,13 @@ package handler
 import (
 	"github.com/L1z1ng3r-sswe/instagram_clone/app/internal/middleware"
 	"github.com/L1z1ng3r-sswe/instagram_clone/app/pkg/logging"
+	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
 )
 
 func (h *Handler) SetUpRoutes() *gin.Engine {
 	router := gin.New()
+	router.Use(cors.Default())
 	router.Use(logging.LoggingMiddleware())
 	router.Static("/post_image", "./app/pkg/storage/post_image")
 
